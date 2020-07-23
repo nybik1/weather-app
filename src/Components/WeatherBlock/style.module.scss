@@ -1,0 +1,74 @@
+.weatherBlock {
+    max-width: 900px;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+
+.search{
+    height: 100px;
+    background-color: salmon;
+}
+
+
+.weatherInfo{
+    background-color: cyan;
+    width: 300px;
+    margin: auto;
+    height: 500px;
+    
+}
+
+.fewClouds{
+    background-image: url('./../../img/31632-oblaka_minimalizm_nebo_clouds_minimalism_the_sky.jpg');
+    background-size: cover;
+}
+
+.clearSky{
+        background-image: url('./../../img/clearsky.png');
+        background-size: cover;
+    }
+
+.overcastClouds {
+    background-image: url('./../../img/overcastClouds.jpg');
+    background-size: cover;
+}
+
+.scatteredClouds{
+    background-image: url('./../../img/scatteredClouds.jpg');
+    background-size: cover;
+}
+
+.brokenClouds{
+    background-image: url('./../../img/brokenClouds.jpg');
+    background-size: cover;
+}
+
+.rain{
+    background-image: url('./../../img/rain.jpg');
+    background-size: cover;
+}
+
+.showerRain{
+    background-image: url('./../../img/showerRain.jpg');
+    background-size: cover;
+}
+
+.thunderstorm{
+    background-image: url('./../../img/thunderstorm.jpg');
+    background-size: cover;
+}
+
+.snow{
+    background-image: url('./../../img/snow.jpg');
+    background-size: cover;
+}
+.mist{
+    background-image: url('./../../img/mist.jpg');
+    background-size: cover;
+}

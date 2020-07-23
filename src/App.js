@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import WeatherBlock from './Components/WeatherBlock';
+import WeatherBlock from './Components/WeatherBlock/index';
 
 function App() {
   return (
