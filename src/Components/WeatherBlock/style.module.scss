@@ -1,6 +1,6 @@
-.weatherBlock {
+.mainWrapper {
     max-width: 900px;
-    height: 500px;
+    height: 750px;
     margin: auto;
     text-align: center;
     display: flex;
@@ -9,43 +9,40 @@
 
 }
 
+.input_search{
+    height: 50px;
+    background-color: rgba($color: #fff, $alpha: .5);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    outline: none;
+    width: 100%;
+    font-size: 20px;
 
-.search{
-    height: 100px;
-    background-color: salmon;
+    &::placeholder{
+        color: #fff;
+    }
 }
 
 
-.weatherInfo{
-    background-color: cyan;
+.weatherBlock{
+    background-color: rgba($color: #000000, $alpha: 0.5);
     width: 300px;
     margin: auto;
     height: 500px;
-    
+    border-radius: 10px;
+    position: relative;
 }
 
-.fewClouds{
-    background-image: url('./../../img/31632-oblaka_minimalizm_nebo_clouds_minimalism_the_sky.jpg');
-    background-size: cover;
-}
+
 
 .clearSky{
         background-image: url('./../../img/clearsky.png');
         background-size: cover;
     }
 
-.overcastClouds {
-    background-image: url('./../../img/overcastClouds.jpg');
-    background-size: cover;
-}
-
-.scatteredClouds{
-    background-image: url('./../../img/scatteredClouds.jpg');
-    background-size: cover;
-}
-
-.brokenClouds{
-    background-image: url('./../../img/brokenClouds.jpg');
+.clouds{
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),  url('./../../img/overcastClouds.jpg');
     background-size: cover;
 }
 
@@ -54,10 +51,6 @@
     background-size: cover;
 }
 
-.showerRain{
-    background-image: url('./../../img/showerRain.jpg');
-    background-size: cover;
-}
 
 .thunderstorm{
     background-image: url('./../../img/thunderstorm.jpg');
@@ -65,10 +58,45 @@
 }
 
 .snow{
-    background-image: url('./../../img/snow.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('./../../img/snow.jpg');
     background-size: cover;
 }
+
 .mist{
     background-image: url('./../../img/mist.jpg');
     background-size: cover;
+}
+
+
+
+.weather_city{
+    font-size: 36px;
+    color: #fff;
+    margin: 0px;
+    padding: 10px;
+}
+
+
+
+.weather_visualInfo{
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+    width: 200px;
+    margin: auto;
+    font-size: 25px;
+
+}
+
+.weather_desc {
+    text-transform: lowercase;
+    &::first-letter{
+        text-transform: uppercase;
+    }
+ }
+
+
+.weather_info{
+    color: #fff;
+    font-size: 20px;
 }
