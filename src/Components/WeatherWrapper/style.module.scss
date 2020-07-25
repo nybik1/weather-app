@@ -1,3 +1,30 @@
+.mainWrapper {
+    max-width: 900px;
+    height: 750px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.input_search{
+    height: 50px;
+    background-color: rgba($color: #fff, $alpha: .5);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    outline: none;
+    width: 100%;
+    font-size: 20px;
+
+    &::placeholder{
+        color: #fff;
+    }
+}
+
+
 .weatherBlock{
     background-color: rgba($color: #000000, $alpha: 0.5);
     width: 300px;
@@ -5,7 +32,6 @@
     height: 500px;
     border-radius: 10px;
     position: relative;
-    color: #ffff;
 }
 
 
